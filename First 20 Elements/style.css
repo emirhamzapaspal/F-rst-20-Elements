@@ -1,0 +1,145 @@
+:root {
+    --base-hue: 300;
+    --base-saturation: 100%;
+    --base-lightness: 40%;
+}
+body{
+    background-color: hsl(243, 25%, 15%);
+}
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+}
+.Element{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    font-size: 1.7em;
+    background-color: hsl(243, 25%, 15%);
+    color: hsl(var(--base-hue), var(--base-saturation), var(--base-lightness));
+    cursor: pointer;
+    border: currentColor 0.125em solid;
+    border-radius: 0.25em;
+
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.25em currentColor;
+    box-shadow: inset 0 0 0.5em 0 currentColor, 0 0 0.5em 0 currentColor;
+}
+.Element:hover{
+    color: hsl(var(--base-hue), var(--base-saturation), calc(var(--base-lightness) - 5%));
+    background-color: hsl(243, 25%, 12%);
+}
+.Element:active{
+    color: hsl(var(--base-hue), var(--base-saturation), calc(var(--base-lightness) - 10%));
+    background-color: hsl(243, 25%, 9%);
+} 
+.AtomNum{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 0.8em;
+    margin: 0;
+}
+.AtomName{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.6em;
+    text-align: center;
+    margin: 0;
+}
+.About{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-top: 160px;
+    background-color: hsl(208, 29%, 20%);
+    height:400px;
+    width:100vw;
+    color: rgb(150, 150, 150);
+    padding: 20px;
+}
+.Exit{
+    position: relative;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    color: hsl(0, 70%, 14%);
+    font-size: 1em;
+    font-weight: bold;
+    left: 90%;
+    background-color: hsl(0, 100%, 50%);
+    box-shadow: inset 0 0 1em 0 currentColor, 0 0 1em 0 currentColor;
+}
+.Exit:hover{
+    background-color: hsl(0, 100%, 40%);
+}
+.Exit:active{
+    background-color: hsl(0, 100%, 30%);
+}
+#Hidrojen{
+    color: blue;
+}
+#Helyum{
+    color: rgb(55, 255, 0);
+}
+#Lityum{
+    color: hsl(0, 100%, 50%);
+}
+#Berilyum{
+    color: grey;
+}
+#Bor{
+    color: white;
+}
+#Karbon{
+    color: rgb(0, 0, 0);
+}
+#Azot{
+    color: hsl(142, 100%, 67%);
+}
+#Oksijen{
+    color: aqua;
+}
+#Flor{
+    color: hsl(27, 100%, 74%);
+}
+#Neon{
+    color: rgb(220, 0, 220);
+}
+#Sodyum{
+    color: rgb(145, 122, 122);
+}
+#Magnezyum{
+    color: wheat;
+}
+#Alüminyum{
+    color: rgb(185, 174, 161);
+}
+#Silisyum{
+    color: orange;
+}
+#Fosfor{
+    color: rgb(174, 44, 0);
+}
+#Kükürt{
+    color: yellow;
+}
+#Klor{
+    color: rgb(173, 141, 82);
+}
+#Argon{
+    color: rgb(153, 156, 0);
+}
+#Potasyum{
+    color: rgb(181, 118, 118);
+}
+#Kalsiyum{
+    color: rgb(255, 216, 164);
+}

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İlk 20 Element</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Container">
+        <button class="Element" id="Hidrojen" onclick="About('H')">
+            <h2>H</h2>
+            <h4 class="AtomNum">1</h4>
+            <h5 class="AtomName">Hidrojen</h5>       
+        </button>
+        <button class="Element" id="Helyum" onclick="About('He')">
+            <h2>He</h2>
+            <h4 class="AtomNum">2</h4>
+            <h5 class="AtomName">Helyum</h5>     
+        </button>
+        <button class="Element" id="Lityum" onclick="About('Li')">
+            <h2>Li</h2>
+            <h4 class="AtomNum">3</h4> 
+            <h5 class="AtomName">Lityum</h5>    
+        </button>
+        <button class="Element" id="Berilyum" onclick="About('Be')">
+            <h2>Be</h2>
+            <h4 class="AtomNum">4</h4>  
+            <h5 class="AtomName">Berilyum</h5>   
+        </button>
+        <button class="Element" id="Bor" onclick="About('B')">
+            <h2>B</h2>
+            <h4 class="AtomNum">5</h4> 
+            <h5 class="AtomName">Bor</h5>    
+        </button>
+        <button class="Element" id="Karbon" onclick="About('C')">
+            <h2>C</h2>
+            <h4 class="AtomNum">6</h4>  
+            <h5 class="AtomName">Karbon</h5>   
+        </button>
+        <button class="Element" id="Azot" onclick="About('N')">
+            <h5 class="AtomName">Azot</h5>  
+            <h2>N</h2>
+            <h4 class="AtomNum">7</h4>   
+        </button>
+        <button class="Element" id="Oksijen" onclick="About('O')">
+            <h2>O</h2>
+            <h4 class="AtomNum">8</h4>  
+            <h5 class="AtomName">Oksijen</h5>  
+        </button>
+        <button class="Element" id="Flor" onclick="About('F')">
+            <h2>F</h2>
+            <h4 class="AtomNum">9</h4>   
+            <h5 class="AtomName">Flor</h5>  
+        </button>
+        <button class="Element" id="Neon" onclick="About('Ne')">
+            <h2>Ne</h2>
+            <h4 class="AtomNum">10</h4>  
+            <h5 class="AtomName">Neon</h5>   
+        </button>
+        <button class="Element" id="Sodyum" onclick="About('Na')">
+            <h2>Na</h2>
+            <h4 class="AtomNum">11</h4>  
+            <h5 class="AtomName">Sodyum</h5>   
+        </button>
+        <button class="Element" id="Magnezyum" onclick="About('Mg')">
+            <h2>Mg</h2>
+            <h4 class="AtomNum">12</h4>  
+            <h5 class="AtomName">Magnezyum</h5>   
+        </button>
+        <button class="Element" id="Alüminyum" onclick="About('Al')">
+            <h2>Al</h2>
+            <h4 class="AtomNum">13</h4>  
+            <h5 class="AtomName">Alüminyum</h5>   
+        </button>
+        <button class="Element" id="Silisyum" onclick="About('Si')">
+            <h2>Si</h2>
+            <h4 class="AtomNum">14</h4>  
+            <h5 class="AtomName">Silisyum</h5>   
+        </button>
+        <button class="Element" id="Fosfor" onclick="About('P')">
+            <h2>P</h2>
+            <h4 class="AtomNum">15</h4>  
+            <h5 class="AtomName">Fosfor</h5>   
+        </button>
+        <button class="Element" id="Kükürt" onclick="About('S')">
+            <h2>S</h2>
+            <h4 class="AtomNum">16</h4>  
+            <h5 class="AtomName">Kükürt</h5>   
+        </button>
+        <button class="Element" id="Klor" onclick="About('Cl')">
+            <h2>Cl</h2>
+            <h4 class="AtomNum">17</h4>  
+            <h5 class="AtomName">Klor</h5>   
+        </button>
+        <button class="Element" id="Argon" onclick="About('Ar')">
+            <h2>Ar</h2>
+            <h4 class="AtomNum">18</h4>  
+            <h5 class="AtomName">Argon</h5>
+        </button>
+        <button class="Element" id="Potasyum" onclick="About('K')">
+            <h2>K</h2>
+            <h4 class="AtomNum">19</h4>  
+            <h5 class="AtomName">Potasyum</h5>   
+        </button>
+        <button class="Element" id="Kalsiyum" onclick="About('Ca')">
+            <h2>Ca</h2>
+            <h4 class="AtomNum">20</h4>  
+            <h5 class="AtomName">Kalsiyum</h5>   
+        </button>
+
+        <div id="AboutH" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('H')">X</button>
+            <center>
+                <h1>Hidrojen</h1>
+                <h3>Hidrojen renksiz, kokusuz ve oldukça yanıcı  bir elementtir.<br>Hidrojen Roket yakıtı olarak, petrol rafinasyonunda ve temiz enerji üretiminde kullanılır</h3>
+                <img src="./images/Hidrojen.jpeg">
+            </center>
+        </div>
+        <div id="AboutHe" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('He')">X</button>
+            <center>
+                <h1>Helyum</h1>
+                <h3>Helyum kokusuz, renksiz ve yanmayan bir gazdır.<br>Helyum soğutmada, balon ve zeplinlerde kullanılır</h3>
+                <img src="./images/Helyum.jpeg">
+            </center>
+        </div>
+        <div id="AboutLi" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('Li')">X</button>
+            <center>
+                <h1>Lityum</h1>
+                <h3>Lityum kimyasal bir elementtir ve yüksek reaktifliğinden dolayı saf halinde bulunmaz.<br>Lityum batarya, ilaç, seramik ve cam üretiminde kullanılır</h3>
+                <img src="./images/Lityum.jpeg">
+            </center>
+        </div>     
+        <div id="AboutBe" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('Be')">X</button>
+            <center>
+                <h1>Berilyum</h1>
+                <h3>Berilyum Dünyada çok az bulunan ender elementlerdendir.<br>Berilyum uzay araçlarında, elektronik bileşenlerde ve nükleer reaktörler için nötron kaynağı olarak kullanılır.</h3>
+                <img src="./images/Berilyum.jpeg">
+            </center>
+        </div>    
+        <div id="AboutB" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('B')">X</button>
+            <center>
+                <h1>Bor</h1>
+                <h3>Bor kırılgan koyu ve parlak olan kimyasal bir elementtir.<br>Bor ısıya dayanıklı cam ve seramik üretimi ve temiz enerji üretiminde kullanlılır</h3>
+                <img src="./images/Bor.jpeg">
+            </center>
+        </div>
+        <div id="AboutC" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('C')">X</button>
+            <center>
+                <h1>Karbon</h1>
+                <h3>Karbon doğada yaygın bulunan kimyasal bir elementtir.<br>Karbon yaşamın temel yapı taşıdır, grafit, elmas ve kömür gibi cevherlerde bulunur</h3>
+                <img src="./images/Karbon.jpeg">
+            </center>
+        </div>
+        <div id="AboutN" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('N')">X</button>
+            <center>
+                <h1>Azot</h1>
+                <h3>Azot renksiz kokusuz tatsız bir gazdır ve amosferin %78'ini oluşturur.<br>Soğutma işlemlerinde, gübre ve asit üretiminde kullanılır.</h3>
+                <img src="./images/Azot.jpeg">
+            </center>
+        </div>
+        <div id="AboutO" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('O')">X</button>
+            <center>
+                <h1>Oksijen</h1>
+                <h3>Oksijen evrende en bol bulunan 3. elementtir ve havanın %20.8'ini oluşturur.<br>Oksijen oksijen tüplerinde kullanılır ve canlıların hayatta kalması için gereklidir.</h3>
+                <img src="./images/Oksijen.jpeg">
+            </center>
+        </div>
+        <div id="AboutF" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('F')">X</button>
+            <center>
+                <h1>Flor</h1>
+                <h3>Flor kahverengimsi sarı renktedir ve en reaktif elementtir.<br>Flor diş macunu, plastik ve kimyasal üretiminde kullanlılır</h3>
+                <img src="./images/Flor.jpeg">
+            </center>
+        </div>
+        <div id="AboutNe" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('Ne')">X</button>
+            <center>
+                <h1>Neon</h1>
+                <h3>Neon renksiz ve kararlı yapıda bir elementtir.<br>Neon, neon lambalarda ve reklam tabelalarında kullanılır.</h3>
+                <img src="./images/Neon.jpeg">
+            </center>
+        </div>
+        <div id="AboutNa" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('Na')">X</button>
+            <center>
+                <h1>Sodyum</h1>
+                <h3>Sodyum yumuşak, hafif veyüksek reaktif bir elementtir.<br>Sofra tuzu, cam, sabun ve kağıt üretiminde kullanılır.</h3>
+                <img src="./images/Sodyum.jpeg">
+            </center>
+        </div>
+        <div id="AboutMg" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('Mg')">X</button>
+            <center>
+                <h1>Magnezyum</h1>
+                <h3>Magnezyum gümüş beyazlığındadır ve en hafif metallerden biridir.<br>Magnezyum otomobil ve havacılık endüstrisinde ve yangın söndürücülerde kullanılır.</h3>
+                <img src="./images/Magnezyum.jpeg">
+            </center>
+        </div>
+        <div id="AboutAl" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('Al')">X</button>
+            <center>
+                <h1>Alüminyum</h1>
+                <h3>Alüminyum yumuşak, hafif ve mat gümüşümsü renkte bir metaldir.<br>Alüminyum gıda paketleme, inşaat,otomotıv ve havacılık endüstrilerinde <br>kullanılır.</h3>
+                <img src="./images/Alüminyum.jpeg">
+            </center>
+        </div>
+        <div id="AboutSi" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('Si')">X</button>
+            <center>
+                <h1>Silisyum</h1>
+                <h3>Silisyum oda sıcaklığında katı halde bulunan ve yarı iletken bir elementtir.<br>Silisyum güneş panellerinde ve cam üretiminde kullanılır.</h3>
+                <img src="./images/Silisyum.jpeg">
+            </center>
+        </div>
+        <div id="AboutP" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('P')">X</button>
+            <center>
+                <h1>Fosfor</h1>
+                <h3>Fosfor insan vücudunda kalsiyumdan sonra en fazla bulunan elementtir.<br>Fosfor gübrelemede, kibrit, deterjan ve ilaç yapımında kullanılır.</h3>
+                <img src="./images/Fosfor.jpeg">
+            </center>
+        </div>
+        <div id="AboutS" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('S')">X</button>
+            <center>
+                <h1>Kükürt</h1>
+                <h3>Kükürt doğada yaygın olarak bulunan ve eski volkanların yakınında bulunan<br> bir elementtir.<br>Kükürt tarımda ve petrol işleme sürecinde kullanılır.</h3>
+                <img src="./images/Kukurt.jpeg">
+            </center>
+        </div>
+        <div id="AboutCl" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('Cl')">X</button>
+            <center>
+                <h1>Klor</h1>
+                <h3>Klor hafif, keskin kokulu, tahriş edici ve zehirli bir gazdır.<br>Klor temizlik ürünlerinde ve su arıtmada kullanılır.</h3>
+                <img src="./images/Klor.jpeg">
+            </center>
+        </div>
+        <div id="AboutAr" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('Ar')">X</button>
+            <center>
+                <h1>Argon</h1>
+                <h3>Argon renksiz kokusuz ve tatsız bir gazdır.<br>Argon floresan ve neon lambalarda, metal işleme ve bazı elektronik cihazlarda kullanılır.</h3>
+                <img src="./images/Argon.jpeg">
+            </center>
+        </div>
+        <div id="AboutK" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('K')">X</button>
+            <center>
+                <h1>Potasyum</h1>
+                <h3>Potasyum gümüş-beyaz renkli doğada deniz suyu ve pek çok mineralde bulunan bir metaldir.<br>Potasyum sabun ve deterjan üretiminde, hücre içi iletişimde ve tarımda kullanılır.</h3>
+                <img src="./images/Potasyum.jpeg">
+            </center>
+        </div>
+        <div id="AboutCa" class="About" style="display: none;">
+            <button class="Exit" onclick="Exit('Ca')">X</button>
+            <center>
+                <h1>Kalsiyum</h1>
+                <h3>Kalsiyum kırılgan, yumuşak ve elektriği iyi ileten bir elementtir.<br>Kalsiyum insanların ve hayvanların kemik yapısında bulunur, çimento ve inşaat malzemelerinde kullanılır.</h3>
+                <img src="./images/Kalsiyum.jpeg">
+            </center>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
